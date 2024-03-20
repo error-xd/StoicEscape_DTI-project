@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+</head>
+
+<body>
+  <header><a href="index.html">HOME</a></header>
+  <main>
+    <div>
+      <h3>Signup</h3>
+      <form action="index.php" method="post">
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name" placeholder="xyz"> <br>
+        <label for="dob">D.O.B</label> <br>
+        <input type="date" id="dob" nam="dob"> <br>
+        <select name="gender" id="gender">
+          <option value="gender"> Gender </option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Others</option>
+        </select> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email" placeholder="abc@xyz.com"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password" placeholder="abc123"> <br>
+        <label for="conpassword">Confirm Password</label> <br>
+        <input type="password" id="conpassword" name="conpassword" placeholder="abc123"> <br>
+        <textarea name="Explain" id="Explain" cols="30" rows="10"
+          placeholder="Explain why you want to join?"></textarea> <br>
+        <input type="submit" name="signup" value="Signup"> <br>
+        <label for="Login"> <small>Already have an account?</small></label>
+        <a href="/form.html">Login</a>
+
+      </form>
+
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lugrasimo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lugrasimo", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lugrasimo", cursive;
+}
+
+p,
+li,
+a {
+  font-family: "Lugrasimo", cursive;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: var(--para-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+:root {
+  --main-color: #808080;
+  --supporting-color: white;
+  --font-color: grey;
+  --heading-color: black;
+  --para-color: grey;
+}
+
+.container {
+  max-width: 142rem;
+  margin: 0 auto;
+  padding: 9.6rem 2.4rem;
+}
+
+.section-navbar {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.section-navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 0;
+}
+
+.section-navbar .navbar ul {
+  display: flex;
+  gap: 3.2rem;
+  text-transform: capitalize;
+}
